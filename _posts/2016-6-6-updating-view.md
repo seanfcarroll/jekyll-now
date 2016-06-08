@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Updatable views
+title: updatable views
 ---
 
 
