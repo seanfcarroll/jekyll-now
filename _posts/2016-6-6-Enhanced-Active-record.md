@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Enhanced active record queries
+---
 
 ```
 @introductions = choose_introductions(current_user,@user.id)
