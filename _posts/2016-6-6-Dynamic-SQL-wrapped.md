@@ -4,7 +4,7 @@ title: Wrapped Dynamic SQL
 ---
 
 
-![_config.yml]
+A complex SQL select can form the core of a Ruby class, and then additional summary methods can be added on top of the retrieved data. The actual SQL can be kept hidden as a private method.
 
 ```
 class DeckSummary
