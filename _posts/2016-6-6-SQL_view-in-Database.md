@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inline Query
+title: Stored SQL View as ActiveRecord model
 ---
 
 
