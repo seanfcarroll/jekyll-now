@@ -4,7 +4,7 @@ title: Stored SQL View as ActiveRecord model
 ---
 
 
-![_config.yml]
+Steps to create a SQL View in the database and treat it as an ActiveRecord model.
 
 ### Add gem
 
