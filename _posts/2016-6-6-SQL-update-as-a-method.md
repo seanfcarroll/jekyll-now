@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: SQL Update as a method
+---
 
 ```
    def update_cache_hits(blast_cache_ids)
