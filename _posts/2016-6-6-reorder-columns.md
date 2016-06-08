@@ -1,6 +1,12 @@
+---
+layout: post
+title: Update physical column order
+---
+
 
 Reorder the columns on an existing table
 
+```
 class Reorder < ActiveRecord::Migration
   def change
     execute "CREATE TABLE events_tmp AS SELECT id, challenge_id, event, seq, event_time, created_at, updated_at FROM events;"
@@ -9,3 +15,4 @@ class Reorder < ActiveRecord::Migration
     execute "drop table events_tmp;"
   end
 end
+```
