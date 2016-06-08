@@ -39,4 +39,4 @@ A complex update statement is abstracted as a Ruby method, and is passed paramat
       @logger.log(sql)
       result = ActiveRecord::Base.connection.execute(sql)
    end
-   ```
+```
