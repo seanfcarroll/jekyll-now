@@ -4,9 +4,6 @@ title: SQL Updates in migrations
 ---
 
 
-![_config.yml]
-
-
 
 ```
 class CopyFirstNameToName < ActiveRecord::Migration
