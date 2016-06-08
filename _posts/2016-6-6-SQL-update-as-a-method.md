@@ -5,6 +5,7 @@ title: SQL Update as a method
 
 A complex update statement is abstracted as a Ruby method, and is passed paramaters. Return values are possible, including 
 
+
 ```
    def update_cache_hits(blast_cache_ids)
       sql = %Q[
