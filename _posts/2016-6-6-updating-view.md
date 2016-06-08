@@ -1,8 +1,8 @@
-
 ---
 layout: post
 title: updatable views
 ---
+
 
 
 
