@@ -1,5 +1,12 @@
+---
+layout: post
+title: Inline Query
+---
 
 
+![_config.yml]
+
+```
 class DeckSummary
 
   def initialize(deck_id,user_id)
@@ -98,3 +105,4 @@ class DeckSummary
     Deck.find_by_sql(sql)
   end
 end
+```
