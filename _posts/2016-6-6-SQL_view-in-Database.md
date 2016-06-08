@@ -30,6 +30,11 @@ class Leaderboard < SqlView
 end
 ```
 
+To get existing SQL view text
+```
+select pg_get_viewdef('viewname', true)
+```
+
 Paste in the SQL commented out as a reference.
 
 ### Migration
@@ -61,7 +66,4 @@ class CreateLeaderboardSqlView < ActiveRecord::Migration
 end
 ```
 
-Get existing SQL view text
-```
-select pg_get_viewdef('viewname', true)
-```
+
