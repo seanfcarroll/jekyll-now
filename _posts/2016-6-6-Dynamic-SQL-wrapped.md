@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inline Query
+title: Wrapped Dynamic SQL
 ---
 
 
