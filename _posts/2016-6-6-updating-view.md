@@ -4,6 +4,8 @@ layout: post
 title: Updatable views
 ---
 
+
+
 In Postgres it is possible to have some elements of a view updatable.
 
 
