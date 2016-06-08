@@ -1,7 +1,9 @@
+---
+layout: post
+title: Scripting SQL
+---
 
 
-
-```
 
 
 Connect directly to PG and MySQL databases using a Ruby script
